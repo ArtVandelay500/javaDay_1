@@ -9,6 +9,10 @@ public class HelloWorld {
 		System.out.println("AGE : 28");
 		System.out.println("Nationality : Korea");
 		
+		
+		int a,b,c;
+		a = 5;
+		System.out.println("a : "  + a);
 	}
   
 }
