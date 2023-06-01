@@ -7,17 +7,16 @@ public class ExConditionalOperator {
 		
 		
 		int num = 10;
-		String mood = "bad";
+		String mood = "";
 		String face = "Smile";
 		
-		String status = (mood == "bad") ? "Gotta go and relax" 
-						: (mood == "happy") ? "Party People~~"
-						: (mood == "meh") ? "call it a day" 
-					
-			
-			;
+		String status = (mood == "bad") ? "Gotta go and relax" : (mood == "happy") ? "Party People~~" : "So so....";
 		
-		System.out.println(status + ", and you need to " +face);
+		System.out.println(status);
+		
+		--'if this is the case' ? 'Run this OR' : 'if this is the case' ? 'Run this instead' : 'Else run this';  
+		
+		
 		
 		
 	
