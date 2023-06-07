@@ -117,27 +117,127 @@ public class ExArray {
 		
 		
 		
+		System.out.println();
+		System.out.println("###########################################################################");
+		System.out.println();
 		
 		
+		int size = 5; 
+		int size2 = 7; 
+		int size3 = 9; 
+		
+		for(int i = 0; i < size; i++) {
+			for(int j = 0; j < size; j++) {
+				if(i == 0 || i == 4) {
+					System.out.print(" *");
+				}else {
+					if(j == 0 || j == 4) {
+						System.out.print(" *");						
+					}else if(j == 2 && i == 2){
+						System.out.print(" C");
+					}else {
+						System.out.print("  ");												
+					}
+				}
+			}
+		System.out.println();
+		}
+		
+		System.out.println();
+		System.out.println("###########################################################################");
+		System.out.println();
+		
+		for(int i = 0; i < size; i++) {
+			for(int j = 0; j < size; j++){
+				if(i == 0 || i == 4) {
+					System.out.print(" *");
+				}
+				else{		
+				if(j == 0 || j == 2 || j == 4){
+					System.out.print(" *");
+				}else {
+					System.out.print("  ");					
+				}
+			}
+		}
+		System.out.println();
+		}
+		
+		System.out.println();
+		System.out.println("###########################################################################");
+		System.out.println();
+		
+		for(int i = 0; i < size; i++) {
+			for(int j = 0; j < size; j++) {
+				if(i == 0 || i == 4){
+					System.out.print(" *");						
+				}else
+					if(j ==0 || j == 4) {
+						System.out.print(" *");
+					}else {						
+						if((j == 1 && i == 1)||(j == 2 && i == 2)||(j == 3 && i == 3)) {
+							System.out.print(" *");
+						}else {
+							System.out.print("  ");
+						}
+					}
+			}
+			System.err.println();
+		}
+		
+		System.out.println();
+		System.out.println("###########################################################################");
+		System.out.println();
 		
 		
-//	for(int i = 5; i < 5)
-//		
+		for(int i = 0; i < size; i++) {
+			for(int j = size3 - i; j > 1; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0; k <= i; k++) {
+				if(i== 0 && k ==0){
+					System.out.print(" ㉾ ");											
+				}
+					else {
+						System.out.print(" *");						
+					}
+			}
+			System.out.println();
+		}
+		for(int i = 3; i < size2; i++) {
+			for(int j = size3 - i; j > 1; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0; k <= i; k++) {
+				if((i == 3 && k == 1)||(i == 5 && k == 3)){
+					System.out.print(" J");															
+				}else {
+					System.out.print(" *");										
+				}
+			}
+			System.out.println();
+		}
+		for(int i = 5; i < size3; i++) {
+			for(int j = size3 - i; j > 1; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0; k <= i; k++) {
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+//		Tree trunk
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		for(int i = 0; i < 3; i++) {
+			for(int j = size3; j > 1; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0; k < 3; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 		
 		
 		
