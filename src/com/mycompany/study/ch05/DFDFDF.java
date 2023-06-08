@@ -1103,7 +1103,9 @@ public class DFDFDF {
 						Boolean isSameOldNumber = true;
 						
 						while(isSameNumber || isLinearNumber || isSameOldNumber) {
+							for(int re = 0; re < 500; re++) {	
 							
+//							총 다섯개의 복권번호세트를 제공합니다
 							for (int i=0; i<6; i++) {
 								random = (int) ((Math.random() * (max - min)) + min);
 								randomArray[i] = random;
@@ -1176,6 +1178,7 @@ public class DFDFDF {
 							for (int i=0; i<oldNumber.length; i++) {
 								if(randomString.equals(oldNumber[i])) {
 									isSameOldNumber = true;
+									System.out.println(randomString + "와 " + oldNumber[i] + "가 같다니!! 이런 행운이!!");
 									break;
 								} else {
 									isSameOldNumber = false;
@@ -1193,7 +1196,8 @@ public class DFDFDF {
 							System.out.println("");
 						
 						}
-		
+						
+	}
 	}
 
 }
