@@ -21,6 +21,16 @@ public class ExCar {
 		
 		car.go();
 		
+		
+
+		Mp3 e1 = new Mp3();
+		
+		System.out.println(e1.memory);
+		System.out.println(e1.color);
+		System.out.println(e1.manufacturer);
+		
+		e1.listen();
+		e1.pause();
 	
 	
 		

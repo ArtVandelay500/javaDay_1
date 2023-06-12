@@ -15,7 +15,7 @@ public class ExMp3 {
 		e1.pause();
 		
 		
-		
+		e1.car2.go();
 		
 		
 		
