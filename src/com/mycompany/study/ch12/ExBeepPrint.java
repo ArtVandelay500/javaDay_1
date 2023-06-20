@@ -12,7 +12,7 @@ public class ExBeepPrint {
 			try { Thread.sleep(500); } catch(Exception e) {}
 		}
 
-		for(int i=0; i<6; i++) {
+		for(int i=0; i<5; i++) {
 			System.out.println("12");
 			try { Thread.sleep(500); } catch(Exception e) {}
 		}
