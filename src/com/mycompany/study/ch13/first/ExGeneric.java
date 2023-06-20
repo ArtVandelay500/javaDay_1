@@ -22,7 +22,7 @@ public class ExGeneric {
 		String carModel = product2.getModel();
 		
 		System.out.println(product2.getModel());
-		System.out.println(carModel + " :gfvtbrttf6gyvbrgyytuu67uuu " +  tvModel);
+		System.out.println(carModel + " : " +  tvModel);
 	
 		
 	}
